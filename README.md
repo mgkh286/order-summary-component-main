@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/ordersummarycomponentmain-using-html-css-4hUGwY96ac)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/ordersummarycomponentmain-using-html-css-4hUGwY96ac)
 - Live Site URL: [live site](https://mgkh286.github.io/order-summary-component-main/)
 
 ## My process
@@ -80,7 +80,6 @@ i will focus on specificity using class or id selectors .
 i will focus on  using position layout .
 
 i will focus on  using background properties .
-
 
 ### Useful resources
 
