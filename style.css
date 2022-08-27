@@ -1,0 +1,143 @@
+/* font-family: 'Red Hat Display', sans-serif; */
+/* 
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+       <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    </style> */
+
+.color {
+  color: hsl(225, 100%, 94%), hsl(245, 75%, 52%), hsl(223, 47%, 23%),
+    hsl(224, 23%, 55%), hsl(225, 100%, 98%);
+}
+
+/* general style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  background-color: hsl(225, 100%, 94%);
+}
+
+/* card styling  */
+.card {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* hero styling  */
+
+.hero {
+  width: 22vw;
+  border: 1px solid transparent;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.hero .hero-img {
+  width: 22vw;
+  height: 10vw;
+  border-radius: 20px 20px 0 0;
+}
+
+.hero h2 {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.hero .hero-desc {
+  color: hsl(224, 23%, 55%);
+  padding: 1rem 2.5rem;
+  letter-spacing: 1.5;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* music styling  */
+.music {
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 1rem;
+}
+
+.music .music-bg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.music .music-img {
+  padding-right: 1.2rem;
+}
+
+.music .music-plan {
+  padding-right: 1.3rem;
+  color: hsl(223, 47%, 23%);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.music-plan span {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.8rem;
+}
+
+.music-link a {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: hsl(245, 75%, 52%);
+}
+
+.music-link a:hover {
+  color: #000;
+  text-decoration: none;
+}
+/* button stylling  */
+button {
+  margin: 1.5rem 0;
+  padding: 1rem 4rem;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  box-shadow: 0px 10px 10px 5px hsla(224, 23%, 55%, 0.253);
+}
+
+button:hover {
+  background-color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.hero-order {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.hero-order:hover {
+  color: #000;
+  cursor: pointer;
+}
