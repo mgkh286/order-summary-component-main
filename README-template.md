@@ -19,8 +19,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![desktop](https://github.com/mgkh286/profile-card-component-main/blob/master/images/screen-shot/desktop.PNG
-![Mobile](https://github.com/mgkh286/profile-card-component-main/blob/master/images/screen-shot/mobile.PNG)
+![desktop](https://github.com/mgkh286)
+![Mobile](https://github.com/mgkh286/)
 
 ### Links
 
