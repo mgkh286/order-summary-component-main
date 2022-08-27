@@ -42,37 +42,30 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
-<main>
-   <section class="follower-numbers">
-        <ul>
-          <li class="number">80K</li>
-          <li class="desc">Followers</li>
-        </ul>
-        <ul>
-          <li class="number">803K</li>
-          <li class="desc">Likes</li>
-        </ul>
-        <ul>
-          <li class="number">1.4K</li>
-          <li class="desc">Photos</li>
-        </ul>
-      </section>
+<article class="music">
+          <section class="music-bg">
+            <img
+              class="music-img"
+              src="images/icon-music.svg"
+              alt="music icon"
+            />
+            <p class="music-plan">Annual Plan <span>$59.99/year</span></p>
+            <h3 class="music-link">
+              <a href="#">Change</a>
+            </h3>
+          </section>
+        </article>
 ```
 
 ```css
 body {
-  background-color: hsl(185, 75%, 39%);
-  background-image: url(images/bg-pattern-bottom.svg),
-    url(images/bg-pattern-top.svg);
-  background-position: left 50vw top 40vh, right 46vw bottom 50vh;
-  background-repeat: no-repeat, no-repeat;
-  height: 100vh;
-  background-color: hsl(185, 75%, 39%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Fraunces';
-  font-family: sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  /* min-height: 100vh; */
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
 }
 ```
 
